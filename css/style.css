@@ -1,0 +1,103 @@
+body{
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#form_container{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 8px 16px 0px darkgray ;
+    padding: 10px;
+    width: 80%;
+    /* height: 100%; */
+    margin: auto;
+    position: relative;
+    top: 70px;
+}
+#container:hover{
+    scale: 1.01;
+}
+
+h1{
+    font-weight:bolder;
+    font-size: 40px;
+    
+}
+label{
+    font-size: 20px;
+    
+}
+input{
+    border:0.2px solid rgb(199, 199, 199);
+    border-radius: 3px;
+    height: 25px;
+    width: 300px;
+}
+#range_input{
+    height: 10px;
+    color:darkgray;
+    background-color:darkgray;
+}
+/* #fullName, #email, #phoneNo, #DOB{
+    display: inline;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+} */
+ .main_container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+ }
+button{
+    color: antiquewhite;
+    background-color:dodgerblue ;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    width: 100px;
+    margin-top: 40px;
+    font-size: 15px;
+
+}
+button:hover{
+    cursor: pointer;
+    background-color:rgba(30, 143, 255, 0.836) ;
+    scale: 1.05 ;
+
+}
+button:active{
+    cursor: pointer;
+    background-color:dodgerblue ;
+    scale: 1 ;
+}
+textarea{
+    width: 30%;
+    height: 20vh;
+}
+#comment{
+    position: relative;
+    top: 10px;
+}
+
+#range{
+    margin-top: 20px;
+}
+#checkbox{
+    position: absolute;
+    left: 0px;
+    /* margin: 10px; */
+    /* right: 0px; */
+    /* margin: 0px; */
+}
+#checkbox_label {
+font-size: 15px;
+position: absolute;
+left: 200px;
+/* margin-top: 5px; */
+}
+
+.error {
+    color: rgba(255, 0, 0, 0.788);
+    font-size: 0.7em;
+  }

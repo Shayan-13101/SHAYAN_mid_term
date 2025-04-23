@@ -3,11 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Feedback Form</title>
     <link rel="stylesheet" href="css/style.css">
     <script src="js/index.js"></script>
 </head>
 <body>
-    
+    <div id="form_container">
+        <h1>Feedback Form</h1>
+        <div class="form">
+            <form action="#" method="post" id="form">
+                <div class="main_container">
+
+                    <div id="fullName" class="container">
+                        <label for="fullName" >Full Name</label>
+                        <input type="text" name="fullName" id="fullName_input">
+                        <div id="userTypeError" class="error"></div>
+                    </div>
+                    <div id="email"class="container">
+                        <label for="email" >Email</label>
+                        <input type="email" name="email" id="email_input">
+
+                    </div>
+                    <div id="phoneNo" class="container">
+                        <label for="phoneNo" >Phone #</label>
+                    <input type="number" name="phoneNo" id="phoneNo_input">
+                </div>
+                <div id="DOB" class="container">
+                    <label for="DOB" >Date Of Birth</label>
+                    <input type="date" name="DOB" id="DOB_input">
+                </div>
+                <div id="website" class="container">
+                    <label for="website" >Website</label>
+                    <input type="tect" name="website" id="website_input">
+                </div>
+            </div>
+                <div id="range">
+                    <label for="range" >Satisfaction</label>
+                    <input type="range" name="range" id="range_input">
+                </div>
+                <div id="comment">
+                    <label for="comment" >Comment</label>
+                    <br>
+                    <textarea name="comment" id="comment_input" name="comment" ></textarea>
+                    <!-- <input type="text-area" name="comment" id="comment" width="50%"> -->
+                </div><br>
+                <div id="checkbox"> 
+                    <input type="checkbox" name="checkbox" id="checkbox_input">
+                    <label for="checkbox" id="checkbox_label">Agree Term and Conditions</label>
+                </div>
+
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
 </body>
 </html>
